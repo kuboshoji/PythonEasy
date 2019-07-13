@@ -13,4 +13,9 @@ if __name__ == "__main__":
             break
     
     print(user.name + "でログインしました。")
+
+    tweet = input("ツイートしてください。: ")
+    
+    print("===ツイート内容===")
+    print(user.name + "さん:" + tweet)
             
